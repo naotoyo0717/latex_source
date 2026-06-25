@@ -11,6 +11,21 @@
 \usepackage{xcolor}
 ```
 
+```latex
+\lstset{
+  inputencoding=utf8,
+  extendedchars=true,
+  basicstyle=\scriptsize\ttfamily,
+  backgroundcolor={\color[gray]{.90}},
+  numbers=left,
+  frame=trBL,
+  breaklines=true,
+  prebreak=\textbackslash,
+  breakindent=0pt,
+  xrightmargin=0.38em,
+}
+```
+
 ```python
 \begin{lstlisting}[numbers=left]
 from langchain_text_splitters import RecursiveCharacterTextSplitter
